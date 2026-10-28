@@ -1,6 +1,5 @@
 import { create } from 'zustand'
 
-// Define types for state & actions
 interface AuthState {
     isInitializing: boolean,
     setIsInitializing: (isInitializing: boolean) => void
@@ -11,7 +10,6 @@ interface AuthState {
 
 }
 
-// Create store using the curried form of `create`
 export const useAuthStore = create<AuthState>()((set) => ({
     isInitializing: true,
     setIsInitializing: (isInitializing: boolean) => set({ isInitializing }),
