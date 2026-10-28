@@ -1,13 +1,13 @@
 "use client"
-import { useGetUsers } from '@/features/users/hooks/useGetUsers'
-import { useGetProducts } from '@/features/products/hooks/useGetProducts'
+import { useGetUsers } from '@/features/user/hooks/useGetUsers'
+import { useGetProducts } from '@/features/product/hooks/useGetProducts'
 import { useGetCategories } from '@/features/category/hooks/useGetCategories'
 import { useGetSubCategories } from '@/features/subcategory/hooks/useGetSubCategories'
 import { useGetSubSubCategories } from '@/features/subsubcategory/hooks/useGetSubSubCategories'
 import StatsCards from '@/features/dashboard/components/admin/StatsCards'
 import RecentUsers from '@/features/dashboard/components/admin/RecentUsers'
-import { UserResponse } from '@/features/users/types/user.types'
-import { productResponse } from '@/features/products/types/Product'
+import { UserResponse } from '@/features/user/types/user.types'
+import { productResponse } from '@/features/product/types/Product'
 import TopProducts from '@/features/dashboard/components/admin/TopProducts'
 
 const Page = () => {

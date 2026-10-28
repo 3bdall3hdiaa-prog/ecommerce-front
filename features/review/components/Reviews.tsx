@@ -1,8 +1,8 @@
 import Rating from '@mui/material/Rating'
 import { CircleUserRound } from 'lucide-react'
 import React from 'react'
-import { useCreateReviews } from '../hooks/useCreateReviews'
-import { useAuthStore } from '@/Store/authStore'
+import { useCreateReviews } from '../hooks/useCreateReview'
+import { useAuthStore } from '@/store/authStore'
 import { useGetReviews } from '../hooks/useGetReviews'
 import { ReviewResponse } from '../types/reviews.types'
 

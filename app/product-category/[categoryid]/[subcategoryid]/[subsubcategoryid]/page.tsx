@@ -1,11 +1,11 @@
 "use client"
 import React, { useEffect } from 'react'
 import Filter from '../../../../../components/ui/Filter'
-import Paginationn from '../../../../../components/ui/Paginationn'
+import Pagination from '../../../../../components/ui/Pagination'
 import { useParams } from 'next/navigation'
 import { useState } from 'react'
 import axiosInstance from '@/lib/axios'
-import Cardproduct from '@/features/products/components/Cardproduct'
+import Cardproduct from '@/features/product/components/Cardproduct'
 import SubSubCategoryHeader from '@/features/subsubcategory/components/SubSubCategoryHeader'
 import ProductsToolBar from '@/features/subsubcategory/components/ProductsToolBar'
 const page = () => {
@@ -76,7 +76,7 @@ const page = () => {
                                 <Cardproduct key={product.id} product={product} />
                             ))}
                     </div>
-                    <Paginationn pages={numOfPages} handlepaginatyion={handlepaginatyion} />
+                    <Pagination pages={numOfPages} handlepaginatyion={handlepaginatyion} />
                 </div>
             </div>
 

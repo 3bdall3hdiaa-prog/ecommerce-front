@@ -1,7 +1,7 @@
 "use client"
 import CategoriesSection from "@/features/category/components/CategoriesSection";
 import BannerSection from "@/components/home/BannerSection";
-import ReccProducts from "@/components/home/ReccProducts";
+import ReccProducts from "@/components/home/RecommendedProducts";
 import HeroSection from "@/components/home/HeroSection";
 import FeatureItem from "@/components/home/FeatureItem";
 import FeatureProducts from "@/components/home/FeatureProducts";

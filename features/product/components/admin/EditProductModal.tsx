@@ -1,5 +1,5 @@
 import React from 'react'
-import { useUpdateProducts } from '../../hooks/useUpdateProducts'
+import { useUpdateProducts } from '../../hooks/useUpdateProduct'
 interface Props {
     setMessage: React.Dispatch<React.SetStateAction<{ message: string; type: "success" | "error" } | null>>
     SubSubCategories: any

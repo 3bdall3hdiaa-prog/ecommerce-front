@@ -6,7 +6,7 @@ import CategoryTable from '@/features/category/components/admin/CategoryTable'
 import DeleteCategoryModal from '@/features/category/components/admin/DeleteCategoryModal'
 import { useGetCategories } from '@/features/category/hooks/useGetCategories'
 import { CategoryResponse } from '@/features/category/types/category.types'
-import { useAuthStore } from '@/Store/authStore'
+import { useAuthStore } from '@/store/authStore'
 
 const Page = () => {
 

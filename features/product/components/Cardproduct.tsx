@@ -5,7 +5,7 @@ import { useState } from 'react';
 import { useRouter } from 'next/navigation';
 import { Heart } from 'lucide-react';
 import { useCreateWhislist } from '@/features/wishlist/hooks/useCreateWhislist';
-import { useAuthStore } from '@/Store/authStore';
+import { useAuthStore } from '@/store/authStore';
 import { useCreateCartItem } from '@/features/cart/hooks/useCreateCartItem';
 const Cardproduct = ({ product, type }: any) => {
     const { user } = useAuthStore()

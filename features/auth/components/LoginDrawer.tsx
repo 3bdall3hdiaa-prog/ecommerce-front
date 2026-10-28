@@ -3,7 +3,7 @@ import React from 'react'
 import { Eye, EyeOff, X } from 'lucide-react'
 import Link from 'next/link'
 import { useLogin } from '../hooks/useLogin'
-import { useAuthStore } from '@/Store/authStore'
+import { useAuthStore } from '@/store/authStore'
 import { useRouter } from 'next/navigation'
 const LoginDrawer = ({ open2, setOpen2 }: any) => {
     const [eye, setEye] = React.useState(false)

@@ -2,7 +2,7 @@
 import React from 'react'
 import Link from 'next/link'
 import { usePathname, useRouter } from 'next/navigation'
-import { useAuthStore } from '@/Store/authStore'
+import { useAuthStore } from '@/store/authStore'
 import { useEffect } from 'react'
 const layout = ({ children }: { children: React.ReactNode }) => {
     const pathname = usePathname()

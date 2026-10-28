@@ -5,8 +5,8 @@ import Link from 'next/link'
 import { useParams } from "next/navigation";
 import axiosInstance from '@/lib/axios'
 import Filter from '@/components/ui/Filter';
-import Paginationn from '@/components/ui/Paginationn';
-import Cardproduct from '@/features/products/components/Cardproduct';
+import Pagination from '@/components/ui/Pagination';
+import Cardproduct from '@/features/product/components/Cardproduct';
 import SubCategoryHeader from '@/features/subcategory/components/SubCategoryHeader';
 import SubSubCategoryList from '@/features/subcategory/components/SubSubCategoryList';
 import ProductsToolBar from '@/features/subcategory/components/ProductsToolBar';
@@ -82,7 +82,7 @@ const page = () => {
                             <Cardproduct key={product.id} product={product} />
                         ))}
                     </div>
-                    <Paginationn pages={numOfPages} handlepaginatyion={handlepaginatyion} />
+                    <Pagination pages={numOfPages} handlepaginatyion={handlepaginatyion} />
                 </div>
             </div>
 

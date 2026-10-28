@@ -1,5 +1,5 @@
-import { productResponse } from "@/features/products/types/Product"
-import { UserResponse } from "@/features/users/types/user.types"
+import { productResponse } from "@/features/product/types/Product"
+import { UserResponse } from "@/features/user/types/user.types"
 
 export interface orderItem {
     id: number

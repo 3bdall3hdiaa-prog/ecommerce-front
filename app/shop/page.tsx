@@ -2,11 +2,11 @@
 import React, { ReactElement } from 'react'
 import Link from 'next/link'
 import Filter from '../../components/ui/Filter'
-import Paginationn from '../../components/ui/Paginationn'
+import Pagination from '../../components/ui/Pagination'
 import { useState, useEffect } from 'react'
-import { useGetProductsWithFilter } from '@/features/products/hooks/useGetProductsWithFilter'
+import { useGetProductsWithFilter } from '@/features/product/hooks/useGetProductsWithFilter'
 import { useGetCategories } from '@/features/category/hooks/useGetCategories'
-import Cardproduct from '@/features/products/components/Cardproduct'
+import Cardproduct from '@/features/product/components/Cardproduct'
 
 const page = () => {
     const [sort, setSort] = useState('')
@@ -88,7 +88,7 @@ const page = () => {
 
 
                     </div>
-                    <Paginationn pages={totalPages} handlepaginatyion={handlepaginatyion} />
+                    <Pagination pages={totalPages} handlepaginatyion={handlepaginatyion} />
                 </div>
             </div>
 

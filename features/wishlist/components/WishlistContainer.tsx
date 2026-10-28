@@ -2,11 +2,9 @@ import React from 'react'
 import { Heart } from 'lucide-react'
 import Link from 'next/link'
 import { X } from 'lucide-react';
-
-import ProdWishlist from '../../../features/wishlist/components/ProdWishlist'
-import { useGetWishlist } from '../hooks/useGetWishlist'
+import { useGetWishlist } from '../hooks/useGetWishlists'
 import { useDeleteWishlist } from '../hooks/useDeleteWishlist'
-import Cardproduct from '@/features/products/components/Cardproduct';
+import Cardproduct from '@/features/product/components/Cardproduct';
 const WishlistContainer = () => {
     const { data, isLoading } = useGetWishlist()
 

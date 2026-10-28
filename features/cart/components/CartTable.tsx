@@ -1,6 +1,6 @@
 import React from 'react'
 import Tr from './Tr'
-import { productResponse } from '@/features/products/types/Product'
+import { productResponse } from '@/features/product/types/Product'
 import { data } from 'framer-motion/client'
 import { cartResponse } from '../types/cart.types'
 import { useDeleteCartItem } from '../hooks/useDeleteCartItem'

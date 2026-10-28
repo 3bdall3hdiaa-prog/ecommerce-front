@@ -1,4 +1,4 @@
-import { productResponse } from "@/features/products/types/Product";
+import { productResponse } from "@/features/product/types/Product";
 
 export interface cartItem {
     id: number;

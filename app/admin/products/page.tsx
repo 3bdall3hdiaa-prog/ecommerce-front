@@ -1,12 +1,12 @@
 "use client"
 import React, { useEffect, useState } from 'react'
-import AddProductModal from '@/features/products/components/admin/AddProductModal';
-import EditProductModal from '@/features/products/components/admin/EditProductModal';
-import DeleteProductModal from '@/features/products/components/admin/DeleteProductModal';
-import TableProducts from '@/features/products/components/admin/TableProducts';
-import ProductStats from '@/features/products/components/admin/ProductStats';
-import { useGetProducts } from '@/features/products/hooks/useGetProducts';
-import { productResponse } from '@/features/products/types/Product';
+import AddProductModal from '@/features/product/components/admin/AddProductModal';
+import EditProductModal from '@/features/product/components/admin/EditProductModal';
+import DeleteProductModal from '@/features/product/components/admin/DeleteProductModal';
+import TableProducts from '@/features/product/components/admin/TableProducts';
+import ProductStats from '@/features/product/components/admin/ProductStats';
+import { useGetProducts } from '@/features/product/hooks/useGetProducts';
+import { productResponse } from '@/features/product/types/Product';
 import { useGetSubSubCategories } from '@/features/subsubcategory/hooks/useGetSubSubCategories';
 import { SubsubcategoryResponse } from '@/features/subsubcategory/types/subsubcategory';
 

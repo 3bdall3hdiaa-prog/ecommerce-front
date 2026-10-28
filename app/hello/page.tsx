@@ -2,7 +2,7 @@
 
 import React from "react";
 import { useSearchParams } from "next/navigation";
-import { useAuthStore } from "@/Store/authStore";
+import { useAuthStore } from "@/store/authStore";
 
 export const Page = () => {
     const searchParams = useSearchParams();

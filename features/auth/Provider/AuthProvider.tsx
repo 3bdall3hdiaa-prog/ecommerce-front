@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
 import { useEffect } from "react";
-import { useAuthStore } from "@/Store/authStore";
+import { useAuthStore } from "@/store/authStore";
 import axiosInstance from "@/lib/axios";
 
 interface User {

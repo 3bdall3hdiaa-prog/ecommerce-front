@@ -1,4 +1,4 @@
-import { productResponse } from '@/features/products/types/Product';
+import { productResponse } from '@/features/product/types/Product';
 import { Search } from 'lucide-react';
 import { useRouter } from 'next/navigation';
 

@@ -1,7 +1,6 @@
 "use client"
 import React from 'react'
 import Slider from '@mui/material/Slider';
-import { useState } from 'react';
 function valuetext(value: number) {
     return `${value}°C`;
 }
@@ -10,12 +9,6 @@ const Filter = ({ value, setValue, setSort, sort }: { sort: string, setSort: Rea
         setValue(newValue);
     };
 
-    const dataforcolors = [
-        { id: 1, name: "black" },
-        { id: 2, name: "amber" },
-        { id: 3, name: "blue" },
-        { id: 4, name: "red" },
-    ]
     return (
         <div className='rounded-2xl h-screen  flex flex-col gap-y-8 w-1/4 bg-white px-4 py-6 '>
             <p>Filter by price</p>

@@ -1,7 +1,7 @@
 "use client"
 import React from 'react'
 import ProductInf from './Productinf';
-import ShipingDelivery from './Shiping_delivery';
+import ShipingDelivery from './ShippingDelivery';
 import Slider from '../../../components/ui/Slider';
 import { productResponse } from '../types/Product';
 interface Props {

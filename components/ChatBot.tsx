@@ -20,7 +20,6 @@ const ChatBot = () => {
 
         if (!text || isLoading) return;
 
-        // إضافة رسالة المستخدم مباشرة
         setMessages((prev) => [
             ...prev,
             { text, sender: "user" },
@@ -34,7 +33,6 @@ const ChatBot = () => {
                 message: text,
             });
 
-            // إضافة رد البوت تحت رسالة المستخدم
             setMessages((prev) => [
                 ...prev,
                 {

@@ -4,7 +4,7 @@ import { Urbanist } from "next/font/google"; // أو استخدم Albert_Sans ل
 import Header from "../components/layout/Header";
 import Footer from "../components/layout/Footer";
 import App from "@/providers/App";
-import AuthProvider from "@/features/auth/Provider/AuthProvider";
+import AuthProvider from "@/features/auth/provider/AuthProvider";
 import ChatBot from "@/components/ChatBot";
 
 export const metadata: Metadata = {

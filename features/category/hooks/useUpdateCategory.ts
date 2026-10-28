@@ -1,5 +1,4 @@
 import { useMutation, useQueryClient } from "@tanstack/react-query"
-import { Category } from "../types/category.types"
 import { updateCategory } from "../services/category.services"
 
 export const useUpdateCategory = () => {

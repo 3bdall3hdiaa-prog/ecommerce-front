@@ -3,7 +3,7 @@ import React, { useEffect } from 'react'
 import { Eye, EyeOff } from 'lucide-react'
 import { useLogin } from '../hooks/useLogin';
 import { useRouter } from 'next/navigation';
-import { useAuthStore } from '@/Store/authStore';
+import { useAuthStore } from '@/store/authStore';
 import axiosInstance from '@/lib/axios';
 
 const LoginForm = ({ form, setForm }: { form: "login" | "register" | "forgot", setForm: (form: "login" | "register" | "forgot") => void }) => {

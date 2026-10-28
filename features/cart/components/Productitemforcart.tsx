@@ -2,7 +2,7 @@ import React from 'react'
 import { X } from 'lucide-react'
 import { useRouter } from 'next/navigation';
 import { cartItem } from '../types/cart.types';
-import { productResponse } from '@/features/products/types/Product';
+import { productResponse } from '@/features/product/types/Product';
 const Productitemforcart = ({ cartItem, handleDelete }: { cartItem: cartItem, handleDelete: (id: number) => void }) => {
     const product: productResponse = cartItem.product
     const router = useRouter()

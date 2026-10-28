@@ -3,7 +3,7 @@ import React from 'react'
 import Link from 'next/link';
 import CartTable from '@/features/cart/components/CartTable';
 import { useGetCartItems } from '@/features/cart/hooks/useGetCartItems';
-import { useAuthStore } from '@/Store/authStore';
+import { useAuthStore } from '@/store/authStore';
 const page = () => {
     const { user } = useAuthStore()
     const { data, isLoading, error } = useGetCartItems({ userId: user.id })

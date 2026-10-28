@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react'
 import { useDeleteCategory } from '../../hooks/useDeleteCategory'
-import { useAuthStore } from '@/Store/authStore'
+import { useAuthStore } from '@/store/authStore'
 import { CategoryResponse } from '../../types/category.types'
 interface Props {
     isDeleteOpen: boolean

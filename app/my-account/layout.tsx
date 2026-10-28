@@ -2,7 +2,7 @@
 import React from 'react'
 import Link from 'next/link'
 import { useRouter, usePathname } from 'next/navigation'
-import { useAuthStore } from '@/Store/authStore'
+import { useAuthStore } from '@/store/authStore'
 import { useLogout } from '@/features/auth/hooks/useLogout'
 
 const navLinks = [

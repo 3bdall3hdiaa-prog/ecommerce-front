@@ -1,9 +1,9 @@
 "use client"
-import { useGetAllReviews } from '@/features/reviews/hooks/useGetAllReviews'
+import { useGetAllReviews } from '@/features/review/hooks/useGetAllReviews'
 import React from 'react'
-import ReviewsTable from '@/features/reviews/components/admin/ReviewsTable'
-import { ReviewResponse } from '@/features/reviews/types/reviews.types'
-import ReviewDeletingModal from '@/features/reviews/components/admin/ReviewDeletingModal'
+import ReviewsTable from '@/features/review/components/admin/ReviewsTable'
+import { ReviewResponse } from '@/features/review/types/reviews.types'
+import ReviewDeletingModal from '@/features/review/components/admin/ReviewDeletingModal'
 
 const page = () => {
     const { data, isLoading } = useGetAllReviews()

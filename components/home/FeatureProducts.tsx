@@ -1,8 +1,8 @@
 "use client"
 import React from 'react'
-import Cardproduct from '../../features/products/components/Cardproduct';
+import Cardproduct from '../../features/product/components/Cardproduct';
 import { motion } from "framer-motion";
-import { useGetProductsWithFilter } from '@/features/products/hooks/useGetProductsWithFilter';
+import { useGetProductsWithFilter } from '@/features/product/hooks/useGetProductsWithFilter';
 const FeatureProducts = () => {
     const [products, setProducts] = React.useState([]);
     const { data, isLoading } = useGetProductsWithFilter({ filter: 'isFeatured', page: 1, limit: 10, type: 'Featured' })

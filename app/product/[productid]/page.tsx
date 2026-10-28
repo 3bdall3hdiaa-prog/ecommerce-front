@@ -1,12 +1,12 @@
 "use client"
 import { useState } from "react"
 import { useParams } from "next/navigation"
-import { useAuthStore } from "@/Store/authStore"
+import { useAuthStore } from "@/store/authStore"
 import { useCreateCartItem } from "@/features/cart/hooks/useCreateCartItem"
-import { useGetSingleProduct } from "@/features/products/hooks/useGetSingleProduct"
-import ProductDetails from "@/features/products/components/ProductDetails"
-import Reviews from "@/features/reviews/components/Reviews"
-import Breadcrumb from "@/features/products/components/Breadcrumb"
+import { useGetSingleProduct } from "@/features/product/hooks/useGetSingleProduct"
+import ProductDetails from "@/features/product/components/ProductDetails"
+import Reviews from "@/features/review/components/Reviews"
+import Breadcrumb from "@/features/product/components/Breadcrumb"
 
 const ProductPage = () => {
     const { productid } = useParams<{ productid: string }>()

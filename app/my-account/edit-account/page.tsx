@@ -1,7 +1,7 @@
 
 "use client"
 import React from 'react'
-import { useAuthStore } from '@/Store/authStore'
+import { useAuthStore } from '@/store/authStore'
 import { useChangePassword } from '@/features/auth/hooks/useChangePassword'
 
 const page = () => {

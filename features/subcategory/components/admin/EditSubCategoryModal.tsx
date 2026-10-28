@@ -1,5 +1,5 @@
 import React from 'react'
-import { useUpdataSubCategory } from '@/features/subcategory/hooks/useUpdataSubCategory'
+import { useUpdataSubCategory } from '@/features/subcategory/hooks/useUpdateSubCategory'
 import { SubCategoryResponse } from '../../types/subcategory.types'
 interface Props {
     isEditOpen: boolean,

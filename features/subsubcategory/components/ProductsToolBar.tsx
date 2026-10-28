@@ -1,4 +1,4 @@
-import { productResponse } from '@/features/products/types/Product'
+import { productResponse } from '@/features/product/types/Product'
 import React from 'react'
 
 const ProductsToolBar = ({ products, sort, setSort }: { products: productResponse[], sort: string, setSort: React.Dispatch<React.SetStateAction<string>> }) => {

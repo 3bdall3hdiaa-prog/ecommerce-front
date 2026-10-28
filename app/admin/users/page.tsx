@@ -1,15 +1,15 @@
 "use client"
 import React, { useState } from 'react'
-import { useGetUsers } from '@/features/users/hooks/useGetUsers';
-import UserTable from '@/features/users/components/admin/UserTable';
-import AddUserModal from '@/features/users/components/admin/AddUserModal';
-import EditingUserModal from '@/features/users/components/admin/EditingUserModal';
-import DeletingUserModal from '@/features/users/components/admin/DeletingUserModal';
-import Stats from '@/features/users/components/admin/Stats';
-import { UserForm, UserResponse } from '@/features/users/types/user.types';
-import { useAddUser } from '@/features/users/hooks/useAddUser';
-import { useUpdateUser } from '@/features/users/hooks/useUpdataUser';
-import { useDeleteUser } from '@/features/users/hooks/useDeleteUser';
+import { useGetUsers } from '@/features/user/hooks/useGetUsers';
+import UserTable from '@/features/user/components/admin/UserTable';
+import AddUserModal from '@/features/user/components/admin/AddUserModal';
+import EditingUserModal from '@/features/user/components/admin/EditingUserModal';
+import DeletingUserModal from '@/features/user/components/admin/DeletingUserModal';
+import Stats from '@/features/user/components/admin/Stats';
+import { UserForm, UserResponse } from '@/features/user/types/user.types';
+import { useAddUser } from '@/features/user/hooks/useAddUser';
+import { useUpdateUser } from '@/features/user/hooks/useUpdateUser';
+import { useDeleteUser } from '@/features/user/hooks/useDeleteUser';
 
 const Page = () => {
     const { data, isLoading, error } = useGetUsers()

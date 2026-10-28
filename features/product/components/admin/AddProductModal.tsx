@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react'
 import { productForm } from '../../types/Product';
-import { useCreateProducts } from '../../hooks/useCreateProducts';
+import { useCreateProducts } from '../../hooks/useCreateProduct';
 interface Props {
     isAddModalOpen: boolean;
     setIsAddModalOpen: (isOpen: boolean) => void;

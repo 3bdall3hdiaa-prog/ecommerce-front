@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
-import Cardproduct from '../../features/products/components/Cardproduct';
+import Cardproduct from '../../features/product/components/Cardproduct';
 import { motion } from "framer-motion";
-import { useGetProductsWithFilter } from '@/features/products/hooks/useGetProductsWithFilter';
+import { useGetProductsWithFilter } from '@/features/product/hooks/useGetProductsWithFilter';
 const ReccProducts = () => {
     const { data: productRecommended, isLoading: productLoading } = useGetProductsWithFilter({ filter: 'isRecommended', page: 1, limit: 10, type: 'Recommended' })
     const [products, setProducts] = useState([]);

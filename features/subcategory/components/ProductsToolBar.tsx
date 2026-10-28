@@ -1,4 +1,4 @@
-import { productResponse } from '@/features/products/types/Product'
+import { productResponse } from '@/features/product/types/Product'
 import React from 'react'
 import { SubCategoryResponse } from '../types/subcategory.types'
 

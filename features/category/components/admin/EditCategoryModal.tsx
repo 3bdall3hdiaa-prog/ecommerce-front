@@ -1,6 +1,5 @@
 import React from 'react'
-import { icons } from "@/shared/icons"
-import { useUpdateCategory } from '../../hooks/useUpdataCategory'
+import { useUpdateCategory } from '../../hooks/useUpdateCategory'
 import { CategoryResponse } from '../../types/category.types'
 interface Props {
     isEditOpen: boolean

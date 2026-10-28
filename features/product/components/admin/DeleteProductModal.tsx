@@ -1,6 +1,6 @@
 import React from 'react'
 import { PackageX } from 'lucide-react';
-import { useDeleteProducts } from '../../hooks/useDeleteProducts';
+import { useDeleteProducts } from '../../hooks/useDeleteProduct';
 import { productResponse } from '../../types/Product';
 
 interface Props {

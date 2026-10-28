@@ -2,7 +2,7 @@
 import StatsCard from '@/features/dashboard/components/client/StatsCard'
 import RecentOrderSection from '@/features/dashboard/components/client/RecentOrderSection'
 import QuickAction from '@/features/dashboard/components/client/QuickAction'
-import { useAuthStore } from '@/Store/authStore'
+import { useAuthStore } from '@/store/authStore'
 import { useGetOrder } from '@/features/order/hooks/useGetOrder'
 
 const page = () => {

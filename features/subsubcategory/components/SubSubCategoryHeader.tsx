@@ -1,6 +1,6 @@
 import React from 'react'
 import Link from 'next/link'
-import { productResponse } from '@/features/products/types/Product'
+import { productResponse } from '@/features/product/types/Product'
 const SubSubCategoryHeader = ({ product }: { product: productResponse }) => {
     return (
         <>

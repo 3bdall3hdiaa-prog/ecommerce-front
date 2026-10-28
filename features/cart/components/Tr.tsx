@@ -1,7 +1,7 @@
 'use client'
 import React from 'react'
 import { X } from 'lucide-react'
-import { useUpdateCartItems } from '../hooks/useUpdateCartItems'
+import { useUpdateCartItems } from '../hooks/useUpdateCartItem'
 import { cartItem } from '../types/cart.types'
 const Tr = ({ cartItem, handleDelete }: { cartItem: cartItem, handleDelete: (id: number) => void }) => {
     const product = cartItem.product

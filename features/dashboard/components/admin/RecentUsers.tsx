@@ -1,6 +1,6 @@
 import React from 'react'
 import { Users } from 'lucide-react'
-import { UserResponse } from '@/features/users/types/user.types'
+import { UserResponse } from '@/features/user/types/user.types'
 
 const RecentUsers = ({ users }: { users: UserResponse[] }) => {
     return (

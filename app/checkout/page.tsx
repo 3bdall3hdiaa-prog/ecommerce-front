@@ -3,7 +3,7 @@ import React from 'react'
 import { useState } from 'react'
 import { OrderSummary } from '@/components/checkout/OrderSummary'
 import { useGetCartItems } from '@/features/cart/hooks/useGetCartItems'
-import { useAuthStore } from '@/Store/authStore'
+import { useAuthStore } from '@/store/authStore'
 import BillingDetails from '@/components/checkout/BillingDetails'
 import { orderForm } from '@/features/order/types/order.types'
 const page = () => {
